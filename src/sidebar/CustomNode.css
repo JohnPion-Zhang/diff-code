@@ -1,0 +1,24 @@
+.rst__rowWrapper.active .rst__rowContents {
+  border: dashed 2px red;
+}
+
+.rst__rowContents {
+  border: 0;
+}
+
+.rst__rowContents {
+  min-width: 5rem;
+  max-width: 7rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.rst__rowSubtitle {
+  display: none;
+}
+
+.rst__moveHandle {
+  display: none;
+}

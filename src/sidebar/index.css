@@ -1,0 +1,7 @@
+@import '../_base.css';
+
+.sidebar-container {
+  width: 20rem;
+  height: 100%;
+  min-height: -webkit-calc(100% - 10rem);
+}

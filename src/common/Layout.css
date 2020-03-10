@@ -1,0 +1,17 @@
+@import '../_base.css';
+
+.layout-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F3F7;
+}
+
+.my-wrapper {
+  width: 100%;
+  height: -webkit-calc(100% - 10rem);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: space-between;
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.workbench-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: stretch;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.workbench-article > table {
+  max-height: 500px;
+  overflow: auto;
+  margin-top: 0;
+}
+

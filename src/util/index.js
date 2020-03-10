@@ -1,0 +1,1 @@
+export { splitTextToLines } from './textHandler.js'
